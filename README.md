@@ -24,7 +24,9 @@ podman run --rm -itd -p 5900:5900 --shm-size 2g test
 /opt/TurboVNC/vncviewer
 ```
 When prompted, enter `hostname:5900` and click connect, where hostname is the hostname of the machine running the container
+
 4. In the container, open a terminal by right-clicking and selecting Applications > Shells > Bash, then repeat the process so you have two terminal windows
+
 5. use one terminal to start google chrome in the container (errors are expected)
 ```
 google-chrome --remote-debugging-port=9222
