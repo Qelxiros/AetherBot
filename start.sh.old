@@ -1,0 +1,6 @@
+#!/bin/bash
+DISPLAY=:0 startx -- vt1
+Xvfb :0 &
+/usr/bin/x11vnc -display :0 -create -usepw -listen tcp -listen inet -listen inet6 -listen unix -listen local &
+echo ______________________ &
+xterm
