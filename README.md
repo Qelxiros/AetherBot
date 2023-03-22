@@ -33,6 +33,7 @@ google-chrome --remote-debugging-port=9222
 ```
 6. In the other terminal, start the selenium program
 ```
-java -jar AetherBot.jar
+java -jar target/AetherBot-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 7. the chrome window should now have a tab for jklm.fun. navigate to a room of your choice and enjoy!
+
